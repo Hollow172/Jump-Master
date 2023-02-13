@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8605086625419989711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8605086625419989705}
+  - component: {fileID: 8605086625419989704}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8605086625419989705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8605086625419989711}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8605086625419989704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8605086625419989711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9489ed2665d8d3c42a99703a53bcceeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Walking
+    clip: {fileID: 8300000, guid: 975f382b6352d2f40a6c9e14f1892a87, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: CoinPickup
+    clip: {fileID: 8300000, guid: 8a8f5ed8f451fa74fadeebb8b5c0616f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Sprinting
+    clip: {fileID: 8300000, guid: 43c7c9296b669664ea6f193499a88783, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Trampoline
+    clip: {fileID: 8300000, guid: 478fe31a89ca8944e9481d6234bebfa1, type: 3}
+    volume: 0.15
+    pitch: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: Jumping
+    clip: {fileID: 8300000, guid: 02543b3182da7db49b82942c7283faa2, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Landing
+    clip: {fileID: 8300000, guid: b9e2f34fa400ef048982d93a50888d26, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerHurt
+    clip: {fileID: 8300000, guid: 478fe31a89ca8944e9481d6234bebfa1, type: 3}
+    volume: 0.2
+    pitch: 2
+    loop: 0
+    source: {fileID: 0}
+  - name: SuperJump
+    clip: {fileID: 8300000, guid: d050ec8b251c46c47acb310fc4f4d453, type: 3}
+    volume: 0.8
+    pitch: 2
+    loop: 0
+    source: {fileID: 0}
+  - name: DoubleJump
+    clip: {fileID: 8300000, guid: aca374b47137a744593727b10b99e1ce, type: 3}
+    volume: 0.8
+    pitch: 2
+    loop: 0
+    source: {fileID: 0}
